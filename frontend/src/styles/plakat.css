@@ -1,0 +1,14 @@
+.plakat-div {
+    max-width: 20em;
+    position: relative;
+}
+.plakat {
+    width: 20em;
+    margin-top: 1em;
+    border: 0.5px black solid;
+}
+@media only screen and (max-width: 800px) {
+    .plakat-div {
+        display: none;
+    }
+}

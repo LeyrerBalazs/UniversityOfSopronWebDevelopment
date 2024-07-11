@@ -1,0 +1,79 @@
+html, body {
+    margin: 0em;
+    padding: 0em;
+    background-color: bisque;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.dobozok {
+    height: 10em;
+    top: 7em;
+    width: 50%;
+    position: relative;
+    margin-left: 1em;
+    margin-top: -7em;
+}
+.doboz {
+    min-width: 200px;
+    max-width: 1900px;
+    min-height: 10em;
+    background-color: white;
+    padding-bottom: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0.2em 0.6em black;
+    border: 0.2em black solid;
+    margin-top: 1em;
+    padding-bottom: 2em;
+}
+.doboz h1 {
+    padding-top: 1em;
+    color: rgb(104, 141, 27);
+    margin-left: 0.5em;
+}
+.doboz p {
+    margin-left: 1em;
+}
+.doboz h2 {
+    margin-left: 0.7em;
+}
+.doboz .feltett-kerdes {
+    font-size: 2em;
+    position: "relative";
+    float: "right";
+}
+a:link, a:visited, a:active, a:hover {
+    color: rgb(104, 141, 27);
+    text-decoration: none;
+}
+.input-field button {
+    height: 3em;
+    width: 30em;
+    background-color: rgb(104, 141, 27);
+    border-color: rgb(104, 141, 27);
+    color: white;
+}
+.input-field {
+    text-align: center;
+    margin-top: 1em;
+}
+.input-field input {
+    height: 2em;
+    width: 30em;
+}
+.input-field .first {
+    margin-top: 1em;
+}
+@media only screen and (max-width: 800px) {
+    .dobozok {
+        height: 10em;
+        top: 7em;
+        width: 95%;
+        position: relative;
+        margin-top: -7em;
+    }
+}
